@@ -2,7 +2,7 @@
 http://www.architecturalkatas.com/kata.html?kata=NoBusiness.json
 
 # Description
-
+**There's No Business like E-Business**
 Client wants to build a toolset/framework/whatever for creating e-business portals for small businesses (customers) to sell to their customers (users)
 
 Requirements: all the usual requirements of an e-commerce package (reliability, user management, money exchange (credit cards, checks, other?), etc); no customer-facing hosting; minimal customer administration; internationalization mandatory
