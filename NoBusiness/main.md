@@ -31,11 +31,12 @@ There are 2 open source solutions on top of them we can develop these solutions.
 # Technology
 We should consider a microservices-based architecture with containerization for scalability and flexibility. This architecture will help accommodate millions of users per customer and thousands of customers.
 
--**-Frontend:**
+**-Frontend:**
   - Single Page Application (SPA) built using a modern frontend framework like React or Angular
   - Responsive design for mobile and desktop devices
   - Internationalization (i18n) support for multiple languages
--**-Backend:**
+
+**-Backend:**
   - A microservices-based architecture with containerization (e.g., Docker) to ensure scalability, maintainability, and flexibility
   - Utilize Kubernetes for container orchestration, automatic scaling, and deployment
   - API Gateway for routing and load balancing across various microservices
