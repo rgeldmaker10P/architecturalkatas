@@ -29,21 +29,24 @@ There are 2 open source solutions on top of them we can develop these solutions.
 - https://devdocs.magento.com/guides/v2.3/config-guide/multi-site/ms_websites.html
 
 # Technology
-We should consider a microservices-based architecture with containerization for scalability and flexibility. This architecture will help accommodate millions of users per customer and thousands of customers.
+We should consider a microservices-based architecture with containerization for scalability & flexibility. This architecture will help accommodate millions of users per customer & thousands of customers.
 
 **-Frontend:**
   - Single Page Application (SPA) built using a modern frontend framework like React or Angular
-  - Responsive design for mobile and desktop devices
+  - Responsive design for mobile & desktop devices
   - Internationalization (i18n) support for multiple languages
 
 **-Backend:**
-  - A microservices-based architecture with containerization (e.g., Docker) to ensure scalability, maintainability, and flexibility
-  - Utilize Kubernetes for container orchestration, automatic scaling, and deployment
-  - API Gateway for routing and load balancing across various microservices
+  - A microservices-based architecture with containerization (e.g., Docker) to ensure scalability, maintainability, & flexibility
+  - Utilize Kubernetes for container orchestration, automatic scaling, & deployment
+  - API Gateway for routing & load balancing across various microservices
 
 
 # Infrastrucure
-TBD
+-Deploy solution on cloud provider (AWS, GCP, Azure) for scalability & reliability
+-Utilize CDN for serving static assets & improving global performance
+-Implement security measures like HTTPS, API security, & data encryption at rest & in transit
+-Monitoring & logging solutions (e.g., Prometheus, ELK stack) for system health & performance tracking
 
 # CI/CD
 - Github actions, upload to container/lambda
