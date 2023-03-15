@@ -43,10 +43,11 @@ We should consider a microservices-based architecture with containerization for 
 
 
 # Infrastrucure
--Deploy solution on cloud provider (AWS, GCP, Azure) for scalability & reliability
--Utilize CDN for serving static assets & improving global performance
--Implement security measures like HTTPS, API security, & data encryption at rest & in transit
--Monitoring & logging solutions (e.g., Prometheus, ELK stack) for system health & performance tracking
+  
+  -Deploy solution on cloud provider (AWS, GCP, Azure) for scalability & reliability
+  -Utilize CDN for serving static assets & improving global performance
+  -Implement security measures like HTTPS, API security, & data encryption at rest & in transit
+  -Monitoring & logging solutions (e.g., Prometheus, ELK stack) for system health & performance tracking
 
 # CI/CD
 - Github actions, upload to container/lambda
