@@ -49,7 +49,8 @@ We should consider a microservices-based architecture with containerization for 
 - Monitoring & logging solutions (e.g., Prometheus, ELK stack) for system health & performance tracking
 
 # CI/CD
-- Github actions, upload to container/lambda
+- Automate build, test, and deployment processes using CI/CD tools (e.g., Jenkins, GitLab CI/CD, GitHub Actions)
+- Implement blue-green deployment or canary releases for smooth and safe updates
 
 # Testing Strategy (Need team to validate and provide input)
 - Web Cypress browser based automation to test the application flows
