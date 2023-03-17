@@ -38,6 +38,11 @@ We should consider a microservices-based architecture with containerization for 
 
 **-Backend:**
   - A microservices-based architecture with containerization (e.g., Docker) to ensure scalability, maintainability, & flexibility
+  - Employ caching solutions like Redis to improve performance and reduce database load
+  - Implement data backup and recovery processes to ensure data reliability
+
+**-Database:**
+  - Use a multi-tenant database strategy to store data for all customers (e.g., PostgreSQL with schema-based multi-tenancy)
   - Utilize Kubernetes for container orchestration, automatic scaling, & deployment
   - API Gateway for routing & load balancing across various microservices
 
